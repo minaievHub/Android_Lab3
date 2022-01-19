@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A4533D04"
+    tools:context=".CheckBoxFragment">
+
+    <TextView
+        android:id="@+id/textViewSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Оберіть колір"
+        android:textAlignment="center"
+        android:textColor="#EF0909"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSize1"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:buttonTint="#4CAF50"
+        android:text="Червоний"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSize2"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="50dp"
+        android:buttonTint="#4CAF50"
+        android:text="Білий"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="16sp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSize3"
+        style="@android:style/Widget.CompoundButton.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="50dp"
+        android:buttonTint="#4CAF50"
+        android:text="Жовтий"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textViewType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="Діапазон цін"
+        android:textAlignment="center"
+        android:textColor="#FA1807"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBoxTypeDoughStandard"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="160dp"
+        android:buttonTint="#4CAF50"
+        android:text="100грн"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="16sp" />
+
+
+
+    <CheckBox
+        android:id="@+id/checkBoxTypeDoughThin"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="160dp"
+        android:buttonTint="#8BC34A"
+        android:text="150грн"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="16sp" />
+    <CheckBox
+        android:id="@+id/checkBoxTypeDoughCheese"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="255dp"
+        android:layout_marginTop="160dp"
+        android:buttonTint="#4CAF50"
+        android:text="+500грн(додат)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/buttonOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="220dp"
+        android:backgroundTint="#FFC107"
+        android:text="ОК"
+        android:textSize="16sp" />
+
+
+
+</FrameLayout>
